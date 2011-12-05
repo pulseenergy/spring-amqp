@@ -189,12 +189,13 @@
 		</profile>
 	</profiles>
 	<scm>
-		<url>http://github.com/SpringSource/spring-amqp</url>
-		<connection>scm:git:git://github.com/SpringSource/spring-amqp.git</connection>
-		<developerConnection>scm:git:git://github.com/SpringSource/spring-amqp.git</developerConnection>
+		<url>http://github.com/pulseenergy/spring-amqp.git</url>
+		<connection>scm:git:git://github.com/pulseenergy/spring-amqp.git</connection>
+		<developerConnection>scm:git:git://github.com/pulseenergy/spring-amqp.git</developerConnection>
 	</scm>
+<!--
 	<distributionManagement>
-		<!-- see 'staging' profile for dry-run deployment settings -->
+		< ! - - see 'staging' profile for dry-run deployment settings - - >
 		<downloadUrl>http://www.springsource.com/download/community</downloadUrl>
 		<site>
 			<id>spring-site</id>
@@ -211,6 +212,7 @@
 			<url>s3://maven.springframework.org/snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
+-->
 	<build>
 		<extensions>
 			<extension>
