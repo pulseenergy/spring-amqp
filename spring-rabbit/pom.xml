@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>org.springframework.amqp</groupId>
 		<artifactId>spring-amqp-parent</artifactId>
-		<version>1.0.1.M1.pulse</version>
+		<version>1.0.1.M2.pulse-SNAPSHOT</version>
 		<relativePath>../spring-amqp-parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>spring-rabbit</artifactId>
