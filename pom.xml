@@ -189,7 +189,6 @@
 		</profile>
 	</profiles>
 	<scm>
-		<url>http://github.com/pulseenergy/spring-amqp.git</url>
 		<connection>scm:git:ssh://git@github.com/pulseenergy/spring-amqp.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/pulseenergy/spring-amqp.git</developerConnection>
 	</scm>
