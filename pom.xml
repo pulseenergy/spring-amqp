@@ -308,6 +308,19 @@
 				  </links>
 				</configuration>
 			</plugin>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-release-plugin</artifactId>
+                            <version>2.2.1</version>
+                        </plugin>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-scm-plugin</artifactId>
+                            <version>1.4</version>
+                            <configuration>
+                                <basedir>${project.basedir}</basedir>
+                            </configuration>
+                        </plugin>
 		  </plugins>
 		</pluginManagement>
 		<plugins>
